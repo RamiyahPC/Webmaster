@@ -1,0 +1,221 @@
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  /* Main STUFFFF*/
+  main {
+    margin: 20px;
+  }
+  
+  /* Style the sections */
+  section {
+    margin-bottom: 40px;
+  }
+  
+  
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  
+  /* Style the form */
+  form {
+    margin-top: 20px;
+  }
+  
+  label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #1C1C1C;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #333333;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+  }
+  body {
+    background-image: url('DarkSpace.png');
+    background-size: cover;
+  }
+  body {
+    color: #FFFFFF;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:  #000000;;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content h3 {
+    margin-top: 0;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropbtn {
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  .dropbtn:hover {
+    background-color: #333333;
+  }
+  .spaceship img {
+    max-width: 30%;
+    height: auto;
+  }
+  #spaceships {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .spaceship {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+  
+  .spaceship h3 {
+    margin-top: 0;
+  }
+  
+  .spaceship img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .spaceship ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .spaceship li {
+    margin-bottom: 10px;
+  }
+  
+  .spaceship a {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .spaceship a:hover {
+    background-color: #3e8e41;
+  }
+
+#navbar{
+  overflow:hidden;
+  text-align: center;
+}
+#navbar a{
+    display:inline-block;
+    color: white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+    font-size: 20px;
+    
+}
+
+#navbar a:hover{
+    background-color: white;
+    color:black;
+}
+.planets-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.planet {
+  width: 30%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.planet img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 200px 200px 1000px rgba(0, 0, 0, 0.5);
+}
+
+.planet h2 {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.planet p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color:rgb(225, 242, 203);
+}
+.planet h5 {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color:rgb(0, 0, 0);
+  -webkit-text-stroke: .2px rgb(255, 255, 255); 
+}
+

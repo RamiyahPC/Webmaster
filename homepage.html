@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tommorowland-Tour</title>
+    </head>
+    <!--Connect to Home.css and home.js-->
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
+    <!--Add background image and title-->
+    <body style = "background-image: url('istockphoto-1173451503-170667a.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-size:cover;">
+        <div id = "title">
+            <h1><a style = 'color:white;text-decoration:none; float:left;'href="homepage.html">Space Flights to Tommorowland</a></h1>
+        </div>
+    <!--Navigation Bar-->
+        <div id = "navbar">
+                <a href="destination-Raymond.html">Destinations</a>
+            <a href="BookTrip.html">Book Trip</a>
+            <a href="train.html">Training</a>
+            <a href="schedule.html">Itinerary</a>
+        </div> <br>
+       
+        <body>
+        
+            
+        <div class="w3-content w3-section" style="max-width:500px; text-align: center">
+            <img class="mySlides" src="astronaut1.jpg" style="width:800px">
+            <img class="mySlides" src="astronaut2.jpg" style="width:800px">
+            <img class="mySlides" src="astronaut3.jpg" style="width:800px">
+        </div>
+            <script>
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) {myIndex = 1}    
+                    x[myIndex-1].style.display = "inline-block";  
+                    setTimeout(carousel, 2000); // Change image every 2 seconds
+                    }
+            </script>
+    
+            
+    </body>
+    <br><footer style = "background-color: black; padding: 3px">
+        <h1 style = "color:white; text-align: center">Reviews</h1>
+        <li style = "color:white; text-align: center; font-size: 20px">"Great trip me and my husband had so much fun on our honey moon!"</li>
+        <li style = "color:white; text-align: center; font-size: 20px">"Birthday parties here are INSANE"</li>
+        <li style = "color:white; text-align: center; font-size: 20px">"Great family get away couldn't get enough"</li> 
+        <h2 style = "color:white; text-align: center"> Authors</h2>
+        <h2 style = "color:white; text-align: center"> Deidra Pierre, Laura Hoang, Raymond Vo, and Ramiyah Petty-Calhoun</h2>
+        <h1 style = "color:white; text-align: center">Sources</h1>
+    </footer>
+</html>
